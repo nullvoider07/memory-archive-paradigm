@@ -1,0 +1,14 @@
+# Ignore LaTeX source files and build logs
+*.tex
+*.bib
+*.cls
+*.log
+*.aux
+*.out
+*.gz
+
+# Ignore raw Markdown version of the paper
+memory_archive.md
+
+# Ignore system files
+.DS_Store

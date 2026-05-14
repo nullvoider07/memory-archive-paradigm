@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "This repository contains a research paper. Please cite it using the metadata in preferred-citation below."
+type: software  # required by CFF schema — actual citation type is in preferred-citation
+
+title: "Memory Archive: A Memory-Grounded Training Paradigm for Computer Use Agents"
+
+authors:
+  - given-names: "Kartik"
+    name-suffix: "A."
+date-released: "2026-05-14"
+
+abstract: >
+  A research analysis of the training paradigm enabled by the Memory Archive
+  data collection system, developed as part of Project Dockyard.
+  Memory Archive produces a structured, annotated dataset comprising per-step actuation records,
+  process-level reasoning annotations, visual state triples, and compiled task
+  guides called memories. This data is used across all four stages of the CUA
+  training and deployment lifecycle: pre-training, supervised fine-tuning,
+  post-training reinforcement, and inference-time retrieval. The central novelty
+  is format consistency — the memory.md artifact is the same structured object
+  at pre-training, fine-tuning, post-training, and inference time, eliminating
+  the train-deploy distribution gap that undermines most CUA systems.
+
+keywords:
+  - computer use agents
+  - memory-grounded training
+  - format consistency
+  - reinforcement learning
+  - retrieval-augmented execution
+  - process supervision
+  - vision-language models
+
+repository-code: "https://github.com/nullvoider07/memory-archive-paradigm"
+url: "https://github.com/nullvoider07/memory-archive-paradigm"
+license: CC-BY-NC-4.0
+
+preferred-citation:
+  type: report
+  title: "Memory Archive: A Memory-Grounded Training Paradigm for Computer Use Agents"
+  authors:
+    - given-names: "Kartik"
+      name-suffix: "A."
+  year: 2026
+  institution:
+    name: "Project Dockyard"
+  url: "https://doi.org/10.5281/zenodo.20176599"
+  doi: "10.5281/zenodo.20176599"
+  notes: "Independent research. Preprint available at Zenodo."
+
+references:
+  - type: software
+    title: "Memory Archive"
+    authors:
+      - given-names: "Kartik"
+        name-suffix: "A."
+    url: "https://github.com/nullvoider07/Memory-Archive"
+    notes: "The data collection system that generates the training corpus described in this paper."
