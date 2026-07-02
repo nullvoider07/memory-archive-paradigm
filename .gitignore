@@ -9,6 +9,7 @@
 
 # Ignore raw Markdown version of the paper
 memory_archive.md
+REVIEW.md
 
 # Ignore system files
 .DS_Store
